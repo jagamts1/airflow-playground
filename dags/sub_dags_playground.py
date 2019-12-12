@@ -11,7 +11,7 @@ CHILD_DAG_NAME = 'child_dag'
 
 default_args = {
     'owner': 'jagadish',
-    'email': ['jagadish@nineleaps.com'],
+    'email': None,
     'start_date': datetime(2019, 10, 9)
 }
 

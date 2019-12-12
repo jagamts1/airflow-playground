@@ -9,7 +9,7 @@ from datetime import datetime
 default_args = {
     'owner': 'jagadish',
     'start_date': datetime(2019, 12, 10),
-    'email': ['jagadish@nineleaps.com']}
+    'email': None}
 
 with DAG('python_branch_playground', schedule_interval='@daily', default_args=default_args) as dag:
 

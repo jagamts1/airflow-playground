@@ -9,7 +9,7 @@ default_args = {
     'owner': 'Jagadish',
     'depends_on_past': False,
     'start_date': datetime(2019, 12, 8),
-    'email': ['jagadish@nineleaps.com'],
+    'email': None,
     'email_on_failure': False,
     'email_on_retries': False,
     'retries': 1,

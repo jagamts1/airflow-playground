@@ -8,7 +8,7 @@ from time import sleep
 default_args = {
     'owner': 'jagadish',
     'start_date': datetime(2019, 12, 8),
-    'email': ['jagadish@nineleaps.com', ]}
+    'email': None}
 
 
 dag = DAG(

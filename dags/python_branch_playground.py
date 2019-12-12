@@ -7,7 +7,7 @@ from datetime import datetime
 
 
 default_args = {
-    'author': 'jagadish',
+    'owner': 'jagadish',
     'start_date': datetime(2019, 12, 10),
     'email': ['jagadish@nineleaps.com']}
 

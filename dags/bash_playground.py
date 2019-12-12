@@ -4,7 +4,7 @@ from airflow.operators.bash_operator import BashOperator
 from datetime import datetime
 
 default_args = {
-    'author': 'jagadish',
+    'owner': 'jagadish',
     'email': ['jagadish@nineleaps.com'],
     'start_date': datetime(2019, 10, 9)
 }
